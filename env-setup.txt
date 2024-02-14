@@ -1,6 +1,12 @@
-run from git bash:
-
+# setup and activate virtual environment:
 python -m venv .venv
 source .venv/Scripts/activate
-# pip freeze > requirement.txt
+
+# update dependency
+pip freeze > requirement.txt
+
+# install dependency
 pip install -r requirement.txt
+
+# deactivate environment once run is complete
+deactivate
