@@ -4,6 +4,7 @@ fonttools==4.48.1
 kiwisolver==1.4.5
 matplotlib==3.8.2
 numpy==1.26.0
+opencv-contrib-python==4.9.0.80
 opencv-python==4.8.0.76
 packaging==23.2
 pillow==10.2.0
